@@ -8,9 +8,8 @@
     "rollup": "^2.50.6"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev-1": "rollup -i src/index.js -o dist/bundle.js -f es",
-    "dev": "rollup -c"
+    "build:es": "rollup -i src/index.js -o dist/bundle.js -f es",
+    "build": "rollup -c"
   },
   "keywords": [],
   "author": "",
